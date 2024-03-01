@@ -68,6 +68,7 @@ export const Quiz = () => {
             <h1>Quiz App</h1>
             <p>coded by <a href="https://www.javadkhosravi.com"name="example-link">javadkhosravi.com</a></p>
             <hr />
+            {/* question */}
             {result ? <></>: <> <h2>{index + 1}. {question.question}</h2>
             <ul>
                 <li ref={option1} onClick={(e) => checkAnswer(e, 1)}>{question.option1}</li>
