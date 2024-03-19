@@ -81,7 +81,7 @@ export const Quiz = () => {
             {/* index 0,1,2,3,4 */}
             <div className="index">{index + 1} of {data.length}</div>
             </>}
-            {/* hise result menu from start page */}
+            {/* hide result menu from start page */}
             {result ? <>
                 <h2>You scored {score} out of {data.length}</h2>
                 <button onClick={Reset}>Reset</button>
