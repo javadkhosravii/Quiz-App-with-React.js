@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Target ECMAScript version
+    "lib": ["dom", "es6"], // Specify library files to be included in the compilation
+    "jsx": "react-jsx", // Use the new JSX transform in React 17 and later
+    "module": "esnext", // Specify module code generation
+    "moduleResolution": "node", // How modules get resolved
+    "strict": true, // Enable strict mode for better type-checking
+    "esModuleInterop": true, // Allow default imports for modules with no default export
+    "skipLibCheck": true, // Skip type-checking for declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in filenames
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "resolveJsonModule": true, // Allow importing JSON files as modules
+    "noEmit": true // Don't output compiled files (useful for type-checking)
+  },
+  "include": [
+    "src/**/*" // Include all files in the `src` folder
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules folder
+  ]
+}
